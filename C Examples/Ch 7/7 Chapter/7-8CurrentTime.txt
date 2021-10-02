@@ -1,0 +1,2 @@
+SOLD: Product Name: donuts	 Quantity: 5	 Price: 5.00
+SOLD: Product Name: Nail	 Quantity: 0	 Price: 0.00

@@ -1,0 +1,26 @@
+See 7-8MiscFunctionsTime.c
+   strftime (buffer, SIZE, "The time is %I:%M %p.\n", loctime);
+
+Format	Explanation
+%a	Abbreviated weekday name (Sun, Mon, ...)
+%A	Full weekday name (Sunday, Monday, ...)
+%b	Abbreviated month name (Jan, Feb, ...)
+%B	Full month name (January, February, ...)
+%c	Complete day and time (Feb 15 14:45:01 2013)
+%d	Day of the month (0-31)
+%H	Hour on 24-hour clock (00-23)
+%I	Hour on a 12-hour clock (01-12)
+%j	Day of the year (001-366)
+%m	Month (0-12)
+%M	Minute (00-59)
+%p	AM/PM (AM or PM)
+%S	Second (00-61) Allows for 2 extra leap seconds
+%U	Week number (00-53) The first Sunday is the beginning of week 1.
+%w	Weekday (0-6)
+%W	Week number (00-53) The first Monday is the beginning of week 1.
+%x	Complete date (Feb 15 2013)
+%X	Complete time (14:45:01)
+%y	Year without century (00-99)
+%Y	Year with century (2013)
+%Z	Time zone name or abbreviation (EST)
+%%	%
